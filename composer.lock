@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "effee7bb62594e04e99857b0061e8bfd",
+    "content-hash": "51b6a344ec2eac6b954c24b8e4b3111f",
+    "packages": [
+        {
+            "name": "jawira/plantuml-encoding",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:potherca-contrib/plantuml-encoding.git",
+                "reference": "93508728c65ff0b3d6a66a308fd64c8b8e4485b8"
+            },
+            "require": {
+                "php": "^5.4 | ^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/plantuml_functions.php"
+                ]
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jawira Portugal",
+                    "email": "dev@jawira.com"
+                }
+            ],
+            "description": "PlantUML encoding functions",
+            "keywords": [
+                "PlantUML",
+                "encodep",
+                "encoding",
+                "functions"
+            ],
+            "time": "2018-03-26 13:08:41"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [
+        {
+            "alias": "v1.0.4",
+            "alias_normalized": "1.0.4.0",
+            "version": "9999999-dev",
+            "package": "jawira/plantuml-encoding"
+        }
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "jawira/plantuml-encoding": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
