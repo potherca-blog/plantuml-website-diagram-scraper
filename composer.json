@@ -1,0 +1,11 @@
+{
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:potherca-contrib/plantuml-encoding.git"
+        }
+    ],
+    "require": {
+        "jawira/plantuml-encoding": "dev-master as v1.0.4"
+    }
+}
