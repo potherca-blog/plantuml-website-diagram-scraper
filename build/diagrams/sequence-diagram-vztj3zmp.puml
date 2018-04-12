@@ -1,0 +1,12 @@
+@startuml
+
+title
+ <u>Simple</u> communication example
+ on <i>several</i> lines and using <font color=red>html</font>
+ This is hosted by <img:https://upload.wikimedia.org/wikipedia/commons/c/c8/SourceForge_logo_2011.png>
+end title
+
+Alice -> Bob: Authentication Request
+Bob -> Alice: Authentication Response
+
+@enduml

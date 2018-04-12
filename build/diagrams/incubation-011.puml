@@ -1,0 +1,15 @@
+@startuml
+Object ^-- AbstractList
+
+class ArrayList extends Object {
+  int size
+}
+
+interface List extends Collection {
+  add()
+}
+
+interface Set extends Collection
+
+class TreeSet implements SortedSet
+@enduml

@@ -1,0 +1,5 @@
+@startuml
+autoactivate on
+Bob -> Alice : hello
+Bob <-- Alice : ok2
+@enduml

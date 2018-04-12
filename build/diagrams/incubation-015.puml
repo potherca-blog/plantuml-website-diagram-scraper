@@ -1,0 +1,18 @@
+@startuml
+caller -> server : conReq
+hnote over caller : idle
+caller <- server : conConf
+hnote over caller : connected
+note over server : connected
+rnote over server
+ this is
+ on several
+ lines
+endrnote
+hnote over caller
+ this is
+ on several
+ lines
+endhnote
+
+@enduml

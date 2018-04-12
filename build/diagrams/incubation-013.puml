@@ -1,0 +1,4 @@
+@startuml
+(*) -> "foo"
+note on link: this is a note
+@enduml

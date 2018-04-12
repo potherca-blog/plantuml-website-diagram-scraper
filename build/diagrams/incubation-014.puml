@@ -1,0 +1,12 @@
+@startuml
+class Foo1
+class Foo2
+Foo1 --> Foo2 : Some information
+note on link
+	You can put note
+	On several lines
+end note
+
+Foo2 --> Foo3 : Another text
+note right on link : here a note on 1 line
+@enduml
