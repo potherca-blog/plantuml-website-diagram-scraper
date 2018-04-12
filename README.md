@@ -24,6 +24,7 @@ To generate them again:
 
     git clone https://github.com/potherca-blog/plantuml-website-diagram-scraper.git
     cd plantuml-website-diagram-scraper/
+    composer install
     bash ./cli/run.sh ./build/
 
 ### See the project output
@@ -44,6 +45,15 @@ To generate them again:
     └── README.md                   <─ 0. You are here
 
     6 directories, 5 files
+
+
+## Installation
+
+To install this project, download the source code and install the dependencies:
+
+    git clone https://github.com/potherca-blog/plantuml-website-diagram-scraper.git
+    cd plantuml-website-diagram-scraper/
+    composer install
 
 ## Usage
 
